@@ -1,7 +1,12 @@
 import React from "react";
-
+import Header from "./components/Header/Header.jsx";
+import "./styles.css";
 function App() {
-  return <div className="App">Welcom To Space-X</div>;
+  return (
+    <div className="App">
+      <Header />
+    </div>
+  );
 }
 
 export default App;
