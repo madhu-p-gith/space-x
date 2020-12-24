@@ -23,10 +23,15 @@ class LaunchList extends Component {
       });
   };
   launchList = () => {
-    const launchListComponents = this.state.launches.map((launch1) => {
+    const launchListComponents = this.state.launches.map((launch1, index) => {
+      const image =
+        launch1.links.flickr_images.length === 0
+          ? "https://farm8.staticflickr.com/7585/16602893909_1181317089_o.jpg"
+          : launch1.links.flickr_images[0];
       return (
         <Launch
-          banner={launch1.links.flicker_images[0]}
+          key={"lanch_" + index}
+          banner={image}
           title={launch1.mission_name}
           launchDate={launch1.launch_date_local}
           description={launch1.details}
