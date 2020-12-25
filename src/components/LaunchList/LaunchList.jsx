@@ -5,11 +5,12 @@ import axios from "axios"; //node modules
 import { Link } from "react-router-dom";
 class LaunchList extends Component {
   state = {
-    launches: {
-      links: {
-        flickr_images: [],
-      },
-    },
+    launches: [],
+    //: {
+    //   links: {
+    //     flickr_images: [],
+    //   },
+    // },
   };
   componentDidMount = () => {
     this.getLaunches();
