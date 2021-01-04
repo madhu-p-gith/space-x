@@ -12,6 +12,7 @@ function App() {
       <Router>
         <Header />
         <Switch>
+          <h1>hiiiiiiiiiii</h1>
           <Route path="/launch/:flight_number">
             <LaunchView />
           </Route>
