@@ -8,8 +8,9 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      Hellos 🗺
-      <Router>
+      {/*  */}
+      {/* Hellos 🗺 */}
+      {/* <Router>
         <Header />
         <Switch>
           <Route path="/launch/:flight_number">
@@ -19,7 +20,8 @@ function App() {
             <LaunchList />
           </Route>
         </Switch>
-      </Router>
+      </Router> */}
+    <p>{`hell0`}</p>
     </div>
   );
 }
