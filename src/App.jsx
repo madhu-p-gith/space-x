@@ -8,7 +8,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      Hellos 🗺
+      {/*  */}
+      Hellos 🗺 
       <Router>
         <Header />
         <Switch>
@@ -20,6 +21,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
+    <p>{`hell01`}</p>
     </div>
   );
 }
