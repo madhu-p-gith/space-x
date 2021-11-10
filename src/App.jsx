@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       {/*  */}
       Hellos 🗺 
-      {/* <Router>
+      <Router>
         <Header />
         <Switch>
           <Route path="/launch/:flight_number">
@@ -20,7 +20,7 @@ function App() {
             <LaunchList />
           </Route>
         </Switch>
-      </Router> */}
+      </Router>
     <p>{`hell012`}</p>
     </div>
   );
