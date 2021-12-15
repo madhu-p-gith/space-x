@@ -9,11 +9,7 @@ function App() {
   return (
     <div className="App">
       {/*  */}
-<<<<<<< HEAD
-      Hellosshh 🗺 
-=======
-      one11 🗺 
->>>>>>> 3400f70671c2bb6b4a73dbeb7bb50a7fc0db915d
+      one 🗺 
        <Router>
         <Header />
         <Switch>
