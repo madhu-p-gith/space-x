@@ -9,7 +9,13 @@ function App() {
   return (
     <div className="App">
       {/*  */}
+<<<<<<< HEAD
       yy1y 🗺 
+=======
+
+      one112aaa2 🗺 
+
+>>>>>>> f46c4355a6094611920144c21bf01b8e0584affe
        <Router>
         <Header />
         <Switch>
