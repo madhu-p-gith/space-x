@@ -9,9 +9,7 @@ function App() {
   return (
     <div className="App">
       {/*  */}
-
-      12a 🗺 
-
+      one 🗺 
        <Router>
         <Header />
         <Switch>
